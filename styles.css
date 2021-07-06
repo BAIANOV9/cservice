@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(green, white);
+  font-family: arial, 'Lucida Sans', sans-serif;
+  transition: 0.24s all ease-in-out;
+}
+input {
+  border: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  display: block;
+  top: 20px;
+}
+#kkahs {
+  border: 1px solid black;
+}
+#error {
+  display: none;
+}
+a:visited {
+  color: #00d;
+}
+a {
+  text-decoration: none;
+}
+p {
+  position: relative;
+  top: 30px;
+}
+
+#container {
+  border-radius: 0.4rem;
+  place-content: center;
+  place-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%);
+  height: 150px;
+  padding: 80px;
+  width: 200px;
+}
+
+input:focus {
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid black;
+}
+::-webkit-input-placeholder {
+  color: black;
+}
