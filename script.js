@@ -20,7 +20,7 @@ setInterval(function() {
   let minuto = zero (novaHora.getMinutes());
   let segundo = zero (novaHora.getSeconds());
   let ms = novaHora.getMilliseconds();
-  let cs = novaHora.getTime();
+ 
   // Chamamos a função zero para que ela retorne a concatenação
   // com os minutos e segundos
   minuto = minuto;
@@ -28,7 +28,7 @@ setInterval(function() {
   // Com o textContent, iremos inserir as horas, minutos e segundos
   // no nosso elemento HTML
   document.getElementById('ho').textContent =
-    hora + ':' + minuto + ':' + segundo + ':' + ms + ':' + cs + '|' + date + '/' + '07' + '/' + year;
+    hora + ':' + minuto + ':' + segundo + ':' + ms + ':' +  '|' + date + '/' + '07' + '/' + year;
 
 }, 1000);
     // A function zero concatena a string (número) 0 em frente aos números
